@@ -2,9 +2,119 @@ fieldset{
     border:none;
 
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 hr{
     border-top: 2px black dotted;
 }
+legend{
+    font-weight: bold;
+}
 sup{
     color: red;
+}
+#telegy{
+    padding: 9px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#nev{
+    padding: 9px;
+    padding-right: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#telketto{
+    padding: 9px;
+    padding-right: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#szam{
+    padding: 9px;
+    padding-right: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#varos{
+    padding: 9px;
+    padding-right: 220px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#orszag{
+    padding: 9px;
+    padding-right: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#email{
+    padding: 9px;
+    padding-right: 145px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type=text]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=text]{
+    border: grey 1px solid;
+}
+select:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+select{
+    border: grey 1px solid;
+}
+input[type=number]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=number]{
+    border: grey 1px solid;
+}
+input[type=email]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=email]{
+    border: grey 1px solid;
+}
+input[type=tel]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=tel]{
+    border: grey 1px solid;
+}
+#save{
+    padding: 9px;
+    padding-right: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #78b444;
+    color: white;
+}
+input[type=submit]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=submit]{
+    border: grey 1px solid;
 }
